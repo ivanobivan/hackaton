@@ -3,7 +3,7 @@ module.exports = {
   // to customize your Truffle configuration!
 
   //Что бы работать с внешним Ethereum клиентом, нужно дописать такую конфигурацию (но тестировать можно и без нее)
-/*
+
   networks: {
     development: {
       host: "localhost",
@@ -11,5 +11,5 @@ module.exports = {
       network_id: "*" // Match any network id
     }
   }
- */
+
 };
