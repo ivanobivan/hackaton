@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-/**
- * Выводит информацию в случае обнаружения новой транзакции
- */
 export default class SystemMessage extends Component{
     render(){
         return(

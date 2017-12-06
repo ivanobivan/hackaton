@@ -15,11 +15,11 @@ module.exports = {
                 exclude: /(node_modules)/,
                 loader: "babel-loader"
             },
-            {
+            /*{
                 test: /\.jsx?$/,
                 enforce: "pre",
                 loader: "eslint-loader"
-            },
+            },*/
             {
                 test: /\.css$/,
                 use: ["style-loader","css-loader","postcss-loader"]
