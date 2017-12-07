@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-contract BusinessCard {
+contract TestContract {
 
     mapping (bytes32 => string) data;
 
