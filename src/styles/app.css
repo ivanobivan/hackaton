@@ -1,3 +1,13 @@
-div {
-    color: black;
+.container {
+    margin:0!important;
+}
+.navigatorMenu {
+    font-size:14px;
+    color:black;
+}
+.headerOfTheWell{
+    text-align: center;
+    font-size:24px;
+    font-weight:bold;
+
 }
