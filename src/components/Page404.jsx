@@ -1,8 +1,20 @@
 import React from 'react';
+import {connect} from 'react-redux'
 
-export default class Main extends React.Component {
+class Page404 extends React.Component {
 
     render(){
-        return <di1v>Sorry for that, but 404 error(</di1v>
+        const {name} = this.props.user;
+        const {age,lol} = this.props.page;
+        return <div>{name}, {age}, {lol}</div>
+    }
+
+}
+const mapStateToProps = (state) => {
+    return {
+        user: state.user,
+        page: state.page
     }
 }
+
+export default connect(mapStateToProps)(Page404)
