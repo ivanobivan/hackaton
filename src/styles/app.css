@@ -48,6 +48,8 @@
     border-bottom: 1px solid rgba(0,0,0,0.2);
     margin: 10px 0 0 0;
     padding: 10px 0 10px 15px;
+    width:50%;
+    display: inline-block;
 }
 .arrowUp {
     color: green;
@@ -89,4 +91,12 @@
 .ownerPart{
     display: inline;
     margin-left:50px;
+}
+.homeDestination {
+    display: inline-flex;
+}
+.rightSide {
+    width: 50%;
+    display: inline-block;
+    margin-left: 40px;
 }
