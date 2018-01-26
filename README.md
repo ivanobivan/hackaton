@@ -22,14 +22,14 @@
 ```sh
 $ git clone https://github.com/ivanobivan/hackaton.git
 $ npm install 
-$ node run build
+$ npm run build
 ```
 
 Для сборки webpack-dev-server
 
 ```sh
 $ npm install
-$ node run dev
+$ npm run dev
 ```
 После запуска сервера зайдите на:
 
