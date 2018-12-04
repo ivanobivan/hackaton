@@ -35,4 +35,6 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(NavigationLeftSide)
+export default connect
+    (mapStateToProps, mapDispatchToProps)
+    (NavigationLeftSide)
