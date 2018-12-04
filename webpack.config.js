@@ -2,6 +2,10 @@ const path = require('path');
 
 module.exports = {
     devtool: "inline-source-map",
+    devServer: {
+        port: 3000,
+        open: false
+    },
     entry: "./src/app.jsx",
     output:{
         path: path.resolve(__dirname, './public'),

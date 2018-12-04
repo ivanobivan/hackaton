@@ -10,11 +10,14 @@ import configStore from './store/createStore'
 
 const store = configStore();
 
-ReactDom.render(
-    <BrowserRouter>
-        <Provider store={store}>
-            <App/>
-        </Provider>
-    </BrowserRouter>
-    , document.getElementById('root')
-);
+function app() {
+    return (
+        <BrowserRouter>
+            <Provider store={store}>
+                <App/>
+            </Provider>
+        </BrowserRouter>
+    )
+};
+
+ReactDom.render(app(), document.getElementById('root'));
